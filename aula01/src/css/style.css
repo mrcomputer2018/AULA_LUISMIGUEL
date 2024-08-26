@@ -2,12 +2,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: #F8F1D5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.logotipo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 2%;
+}
+
+img {
+    width: 60px ;
+
+}
+
+.cardapio {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 20px 20px 0px;
+
+    position: absolute;
+    top: -20px;
+    width: 100%;
+
+    background-color: transparent;
+
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    z-index: 1999;
+}
+
+.content {
+    width: 100%;
 }
 
 h1 {
-    color: red;
     text-align: center;
-    padding: 1rem;
-    border: 1px solid black;
-    margin: 1rem;
+    font-size: 2.2rem;
+    background: transparent;
+}
+
+h1 span {
+    font-size: 2rem;
+    background: transparent;
+}
+
+.table-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+
+table {
+   width: 100%;
+}
+
+.thead {
+    text-align: center;
+}
+
+.tbody {
+    max-width: 700px;
 }
