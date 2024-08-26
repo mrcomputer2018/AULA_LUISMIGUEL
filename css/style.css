@@ -47,7 +47,54 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.empadas {
+    padding-bottom: 4rem;
+}
+
 .section-sobre h2 {
     color: #FF8F00;
     padding-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.image img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.descricao {
+    padding-bottom: 2rem;
+}
+
+.descricao h3 {
+    color: #FF8F00;
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.container-table {
+    display: flex;
+    justify-content: center;
+}
+
+.container-table table {
+    width: 100%;
+    text-align: center;
+}
+
+.container-table table thead {
+    background-color: #FFB74D;
+    color: #fff;    
+}
+
+.container-table table td {
+    padding: 0.5rem 0;
 }
