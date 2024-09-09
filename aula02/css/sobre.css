@@ -1,0 +1,44 @@
+.about,
+.your-values,
+.your-history,
+.your-team,
+.map {
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    padding: 1rem;
+}
+
+.card-content .image-card {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.card-content h3 {
+    color: #FF8F00;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.card-content p {
+    text-align: center;
+}
+
+.map-content {
+    margin: 0 auto;
+}
+
